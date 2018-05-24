@@ -6,8 +6,7 @@
 	<script src="js/app.js"></script>
 	<style href="css/bootstrap.min.css"></style>
 </head>
-<body >
-	<div ng-controller="mainController">
+<body ng-controller="mainController">
 		<h1>{{title}}</h1>
 		<table>
 			<tr>
@@ -22,6 +21,11 @@
 				<button ng-click="increaseAmount()">Increase Amount</button>
 			</tr>
 		</table>
+	</div>
+	<div>
+		<input ng-model="expense.description" type="text" /><br>
+		<input ng-model="expense.amount" type="number" /><br>
+		<textarea ng-model="title"></textarea>
 	</div>
 	
 </body>

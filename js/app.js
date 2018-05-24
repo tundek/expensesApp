@@ -2,7 +2,7 @@
 var app = angular.module('myApp', [])
 
 app.controller('mainController', ['$scope',function($scope) {
-	$scope.title = "Welcome to my Sample App";
+	$scope.title = "Welcome to my ExpensesApp";
 
 	$scope.expense = {
 		description: 'Clothes',
